@@ -9,8 +9,8 @@ html, body {
     margin: 0;
 }
 
-body {
-    background-image: url(/src/background_cert.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+.background_ch {
+    width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
 }
