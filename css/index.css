@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Bad+Script&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bad Script", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+
+    background-color: black;
+
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a{
+    color: inherit;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.wrapper_main {
+    width: 100%;
+    color:olivedrab;
+}
+
+.bg_about {
+    display: flex;
+    width: 1130px;
+    height: 800px;
+    background-image: url(/src/bg-header.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 180px;
+    padding-bottom: 50px;
+    margin: 4% auto;
+}
+
+
+.main_text1{
+    position: absolute;
+    width: 300px;
+    height: 700px;
+    border: solid 1px white;
+    border-radius: 25px;
+    top: 150px;
+    left: 50px;
+}
+
+.main_app{
+    width: 350px;
+    height: 550px;
+    box-shadow: 0px 10px 30px 10px #0006;
+    border-radius: 20px;
+}
+
+.advantages_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 15%;
+    color:rgb(70, 68, 68);
+}
+
+.advantages_list li{
+    position: relative;
+    line-height: 42px;
+    padding-bottom: 20px;
+}
+
+.advantages_list li::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url(/src/check.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: -50px;
+}
+
+.advantages_list :last-child::before{
+    display: none;
+}
+
+.advantages_list :nth-child(4)::before{
+    display: none;
+}
+
+.advantages_list :nth-child(4){
+    margin-top: 20%;
+    margin-left: -15%;
+    background-color:burlywood;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 black;
+    opacity: 0.7;
+}
+
+.advantages_list :nth-child(4):hover{
+    opacity: 1;
+}
+
+.advantages_list :nth-child(4) a{
+    text-decoration: none;
+}
