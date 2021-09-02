@@ -135,12 +135,16 @@ a{
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap');
     .content{
         display: flex;
         flex-direction: column;
         width: 100%;
         margin-right: auto;
         margin-left: auto;
+        background-image: url(/src/background_main.png);
+        background-size: cover;
+        font-family: 'IBM Plex Serif', serif;
     }
 
 
@@ -163,7 +167,8 @@ a{
         flex-wrap: wrap;
         flex-direction: column;
         margin-left: 15%;
-        color:rgb(70, 68, 68);
+        color: #a38663;
+        margin-top: 60px;
     }
 
     .advantages_list li{
@@ -181,7 +186,7 @@ a{
         background-position: 0 0;
         background-repeat: no-repeat;
         background-size: cover;
-        left: -50px;
+        left: -40px;
     }
 
     .advantages_list :last-child::before{
@@ -195,12 +200,14 @@ a{
     .advantages_list :nth-child(4){
         margin-top: 20%;
         margin-left: -15%;
-        background-color:burlywood;
+        background-color:rgb(214, 202, 186);
         text-align: center;
         padding: 10px;
         border-radius: 20px;
         box-shadow: 0 0 10px 0 black;
         opacity: 0.7;
+        color:#251604;
+        margin-right: 2%;
     }
 
     .advantages_list :nth-child(4):hover{
@@ -262,7 +269,7 @@ a{
         position: absolute;
         width: 40px;
         height: 40px;
-        background-image: url(/src/ft_2.png);
+        background-image: url(/src/check.png);
         background-position: 0 0;
         background-repeat: no-repeat;
         background-size: cover;
@@ -280,11 +287,11 @@ a{
     .advantages_list :nth-child(4){
         margin-top: 20%;
         margin-left: -15%;
-        background-color:burlywood;
+        background-color:rgb(219, 146, 50);
         text-align: center;
         padding: 10px;
         border-radius: 20px;
-        box-shadow: 0 0 10px 0 black;
+        box-shadow: 0 0 10px 0 #251604;
         opacity: 0.7;
     }
 
