@@ -206,3 +206,9 @@ ul{
         margin: 0 auto;
     }
 }
+
+@media only screen and (max-device-width : 320px) {
+    .content{
+        font-size: 0.8em;
+    }
+}
