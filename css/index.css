@@ -202,6 +202,11 @@ ul{
         color:#251604;
     }
 
+    .download_btn{
+        -webkit-tap-highlight-color: transparent;
+        -moz-tap-highlight-color: transparent;
+    }
+
     .dwn_apk{
         margin: 0 auto;
     }
