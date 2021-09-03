@@ -207,7 +207,7 @@ ul{
     }
 }
 
-@media only screen and (max-device-width : 355px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 400px) {
     .content{
         font-size: 0.8em;
     }
