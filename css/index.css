@@ -97,7 +97,7 @@ ul{
         position: relative;
         line-height: 42px;
         padding-bottom: 20px;
-        width: 60%;
+        width: 55%;
     }
 
     .advantages_list li::before {
@@ -217,5 +217,11 @@ ul{
 @media only screen and (min-device-width : 320px) and (max-device-width : 400px) {
     .content{
         font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-device-width : 280px) and (max-device-width : 319px) {
+    .content{
+        font-size: 0.7em;
     }
 }
